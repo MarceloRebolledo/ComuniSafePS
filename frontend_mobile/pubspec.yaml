@@ -1,0 +1,35 @@
+name: comunisafe
+description: Plataforma móvil descentralizada para el reporte ciudadano e incidencias urbanas en tiempo real.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.5
+  provider: ^6.1.1
+  shared_preferences: ^2.2.2
+  flutter_map: ^6.1.0
+  latlong2: ^0.9.0
+  http: ^1.2.0
+  image_picker: ^1.0.7
+  flutter_lucide: ^1.11.0
+  image: ^4.2.0
+  path_provider: ^2.1.0
+  geolocator: ^14.0.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/logo-comunisafe.png
+    - assets/icon.png
+    - assets/adaptive-icon.png
+    - assets/splash-icon.png
+    - assets/favicon.png
